@@ -1,0 +1,32 @@
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 750px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 170px;
+    flex-direction: column;
+    background: rgb(246, 245, 245);
+}
+.first-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.save-btn {
+    margin-top: 20px;
+    background: rgb(38, 248, 38);
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+label, input {
+    margin-bottom: 5px;
+}
+
